@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #17191a;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  height: 80px;
+  background-color: indigo;
+  text-align: center;
+  color: white;
+}
+
+header{
+  background-color: indigo;
+  text-align:left;
+  color: rgb(128, 124, 124);
+  width: 100%;
+  height: 50px;
+  
+}
+h2{
+ 
+  padding-top: 1%;
+  color: gray;
+}
+header a{
+  color:gray;
+  
+}
+img{
+  margin-top: 5%;
+  margin-left: 40%;
+}
+
+.message{
+text-align: center;
+}
+
+.addbutton{
+margin-left: 1%;
+margin-bottom: 2%;
+}
+
+.homepagebuttons{
+  margin-top: 2%;
+  
+  text-align: center;
+}
+div .registration-page{
+border-bottom: 100px;
+
+}
+
+div .container {
+  overflow: auto;
+  max-height: 450px;
+ 
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background:white;
+}
+
+.logoutbutton{
+  margin-left: 71%;
+margin-bottom: 1%;
+ 
+}
+button .delete{
+  width: "1px";
+height: "3px";
+}
+
+p{
+  color: red;
+}
+.row label{
+  color: rgb(150, 67, 206);
+  font-size: 20px;
+  
+}
+.viewdata{
+  color: rgb(90, 86, 86);
+  font-size: 20px;
+}
+.viewhomepage{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.forgotpassbutton{
+  margin-top: 1%;
+  margin-left: 60%;
+}
+/*
+.buttontext{
+font-size: 5px;
+}*/
